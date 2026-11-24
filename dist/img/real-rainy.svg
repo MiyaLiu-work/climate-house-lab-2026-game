@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe9e4"/><stop offset="1" stop-color="#eefaf6"/></linearGradient>
+<pattern id="th" width="10" height="8" patternUnits="userSpaceOnUse"><rect width="10" height="8" fill="#a8743f"/><path d="M0 7h10" stroke="#7d5129" stroke-width="2"/></pattern>
+<pattern id="pl" width="9" height="10" patternUnits="userSpaceOnUse"><rect width="9" height="10" fill="#c98a55"/><path d="M8 0v10" stroke="#9a6236" stroke-width="1.5"/></pattern></defs>
+<rect width="480" height="300" fill="url(#s)"/>
+<circle cx="70" cy="58" r="26" fill="#ffc94a" stroke="#f7a83a" stroke-width="4"/>
+<path d="M0 238 Q240 214 480 236 V300 H0Z" fill="#8cc98a"/>
+<path d="M0 262 Q240 246 480 262 V300 H0Z" fill="#6fb36f"/>
+<!-- palm -->
+<path d="M418 250 C414 200 420 160 428 120" stroke="#7a5a3e" stroke-width="9" fill="none" stroke-linecap="round"/>
+<g fill="#4e9a5a" stroke="#173c3b" stroke-width="2"><path d="M428 120 q-40 -6 -58 20 q30 -12 58 -20z"/><path d="M428 120 q40 -10 52 14 q-28 -8 -52 -14z"/><path d="M428 120 q-12 -36 -42 -40 q26 14 42 40z"/><path d="M428 120 q20 -34 48 -32 q-30 10 -48 32z"/></g>
+<!-- stilts -->
+<g fill="#7a4f2e" stroke="#173c3b" stroke-width="2.5"><rect x="128" y="182" width="11" height="62"/><rect x="190" y="182" width="11" height="64"/><rect x="252" y="182" width="11" height="64"/><rect x="314" y="182" width="11" height="62"/><rect x="356" y="182" width="11" height="60"/></g>
+<!-- stairs -->
+<g stroke="#173c3b" stroke-width="2.5" fill="#b07a4a"><path d="M86 246 L122 184 L132 184 L96 246Z"/></g>
+<g stroke="#173c3b" stroke-width="2"><path d="M96 232h14M103 220h14M110 208h14M117 196h14"/></g>
+<!-- floor + walls -->
+<rect x="116" y="174" width="264" height="12" fill="#8a5a34" stroke="#173c3b" stroke-width="2.5"/>
+<rect x="128" y="112" width="240" height="64" fill="url(#pl)" stroke="#173c3b" stroke-width="2.5"/>
+<g fill="#5b3a22" stroke="#173c3b" stroke-width="2"><rect x="146" y="124" width="34" height="40"/><rect x="232" y="124" width="34" height="40"/><rect x="314" y="124" width="34" height="40"/></g>
+<g stroke="#e8c79a" stroke-width="2.5"><path d="M150 132h26M150 140h26M150 148h26M150 156h26M236 132h26M236 140h26M236 148h26M236 156h26M318 132h26M318 140h26M318 148h26M318 156h26"/></g>
+<!-- roof -->
+<path d="M84 124 L248 34 L412 124Z" fill="#6b4226" stroke="#173c3b" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M100 119 L248 41 L396 119Z" fill="url(#th)"/>
+<path d="M226 64 L248 46 L270 64Z" fill="#e8c79a" stroke="#173c3b" stroke-width="2"/><path d="M236 62v-6M248 62v-12M260 62v-6" stroke="#7d5129" stroke-width="2"/>
+<!-- breeze under floor -->
+<g stroke="#147f85" stroke-width="4" fill="none" stroke-linecap="round"><path d="M40 214 H120 M160 216 H230 M280 214 H350"/></g>
+<g fill="#147f85"><path d="M120 206 l14 8 -14 8z"/><path d="M230 208 l14 8 -14 8z"/><path d="M350 206 l14 8 -14 8z"/></g>
+</svg>
